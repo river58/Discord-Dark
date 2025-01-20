@@ -16,7 +16,7 @@
 .container__5130c.isOpen__036bf, .container_a57509.isOpen_a57509, .content__28297, .ctaContainer__95bd7, .firstPartyCategorySelected_a7a485, .perkCard_d611db,
 .recommendedServerCard_ebbdfd, .wrapper_d4ec61, .friendRequestsButton_c0c071, .createSticker_a708c4, .previewMessage_c31d36, .wrapper_faf5ab, .resizeHandle_d1c246,
 .changelog_abe1fa, .safetyStepRow_abe1fa, .testimonialHeroContainer_d3081b, .action_e3f878, .upsellPreview_aa7c25, .previewListItem_aa7c25, .header_bd2368, .table_aabef9,
-.howItWorksContainer_aa72d6, .channelRow_f04d06, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_b558d0 .fileWrapper_f46c86, .file_f46c86,
+.howItWorksContainer_aa72d6, .channelRow_f04d06, .card_x5zW6z, .description_zXiu5E, .bd-select, .bd-select-option.selected, .container_b558d0 .fileWrapper_f46c86 .file_f46c86,
 .searchBar_a46bef, .inlineCode_cdb578, .before_inlineCode_cdb578, .after_inlineCode_cdb578, .popoutContainer_c938c7, .reactionTooltip_fba897, .guildSidebar_a74b6f,
 .contentRegion_c25c6d, .termsFieldBody_bd5b94, .section_cd82a7, .field_b69b77, .container_d00e26 div, .container_f9d8eb, .category_d7acc7, .activeCategory_fa8ebf,
 .avatarBackground_bb882a, .linkingBanner_f70f48, .box_f70f48, .container_c23582, .bannedUser_c90ddb, .keyboardShortcutsModal_ad95dc, .modalTitle_ad95dc, .modalSubtitle_ad95dc,
@@ -114,7 +114,7 @@ div#MemberCount, .title_a7d72e, .uploadModal_f82cc7, .tile_dc5fc4, .interactive_
 /* ---------- Main Tweaks ---------- */
 /* Hide GIF, Gift, Nitro DM, and Shop Buttons */
 button:has([d^=" M-7,-10 C-8.656999588012695,-10 -10"]),
-button:has([d^=" M-7,10 C-8.104999542236328,10 -9"]), .giftIconContainer_fdeb78),
+button:has([d^=" M-7,10 C-8.104999542236328,10 -9"], .giftIconContainer_fdeb78),
 li:has([d^="M7 4a1 1 0 0 0 0 2h3a1 1 0 1 1 0 2H5.5a1"]),
 li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 .channelAppLauncher_df39bd {
@@ -185,7 +185,7 @@ li:has([d^="M2.63 4.19A3 3 0 0 1 5.53 2H7a1"]),
 
 .reaction_ec6b19:not(.reactionMe_ec6b19), .reactionBtn_f61c73, .container_c06a56, .spamBanner_c1da2c, .wrapper_a71a1c, .upsellsContainer_b712b6, .guildPopout_cf5d0a,
 .embed_e365d2, :where(.overlay_c69a7b), .activity_a972fe, .bumpBox_ca33de, .rewardTileWithInstructions_a18c91, .profileEntryCard_f1257c, .nonVisualMediaItemContainer_cda674 .embedWrapper_b558d0,
-.descriptionContainer_ddbb27 { {
+.descriptionContainer_ddbb27 {
   border: 1px solid var(--border-primary) !important;
   background-image: var(--bgImage);
   background-clip: border-box;
